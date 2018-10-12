@@ -1,14 +1,5 @@
 ### Myapp
-
-1
-2
-3
-4
-5
-6
-7
-8
-9
+```java
 import React, { Component } from 'react';
 import { List,Divider, Container, Header, Breadcrumb, Button, Grid, Dropdown } from 'semantic-ui-react';
 
@@ -89,18 +80,11 @@ class Mymenu extends Component{
 
 export default Mymenu;
 
+```
 
 
 ### App.js
-1
-2
-3
-4
-5
-6
-7
-8
-9
+```java
 import React, { Component } from 'react';
 import Mymenu from './component/Mymenu';
 
@@ -118,17 +102,10 @@ class App extends Component {
 }
 
 export default App;
+```
 
 ### index.js
-1
-2
-3
-4
-5
-6
-7
-8
-9
+```java
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
@@ -140,3 +117,4 @@ ReactDOM.render(<App />, document.getElementById('root'));
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: http://bit.ly/CRA-PWA
 
+```
